@@ -14,13 +14,13 @@ contract SimpleContract {
 }
 
 contract SimpleContract2 {
-    uint256 public storedData;
+    uint256 public storedData2;
 
-    function set(uint256 data1) public {
-        storedData = data1;
+    function set2(uint256 data1) public {
+        storedData2 = data1;
     }
 
-    function get() public view returns (uint256) {
-        return storedData;
+    function get2() public view returns (uint256) {
+        return storedData2;
     }
 }
